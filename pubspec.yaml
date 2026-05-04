@@ -1,0 +1,80 @@
+name: moe_portfolio
+description: Professional premium portfolio website for Moe Kyaw Aung - Android Developer at Microsoft
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Animations
+  google_fonts: ^6.1.0
+  animate_do: ^3.1.0
+  flutter_animate: ^4.1.1+1
+  carousel_slider: ^4.2.1
+  shimmer: ^3.0.0
+  
+  # State Management
+  provider: ^6.0.0
+  
+  # Networking
+  http: ^1.1.0
+  dio: ^5.3.1
+  
+  # Utilities
+  url_launcher: ^6.1.14
+  font_awesome_flutter: ^10.7.0
+  intl: ^0.18.1
+  uuid: ^4.0.0
+  
+  # Platform
+  universal_platform: ^1.0.0+1
+  
+  # Others
+  connectivity_plus: ^5.0.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_linter: ^3.0.0
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+    
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
