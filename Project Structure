@@ -1,0 +1,53 @@
+moe_portfolio/
+├── lib/
+│   ├── main.dart
+│   ├── config/
+│   │   ├── app_config.dart
+│   │   └── routes.dart
+│   ├── models/
+│   │   ├── project.dart
+│   │   ├── skill.dart
+│   │   ├── certification.dart
+│   │   └── constants.dart
+│   ├── providers/
+│   │   └── theme_provider.dart
+│   ├── screens/
+│   │   ├── home_screen.dart
+│   │   ├── projects_screen.dart
+│   │   ├── skills_screen.dart
+│   │   └── contact_screen.dart
+│   ├── widgets/
+│   │   ├── common/
+│   │   │   ├── navbar.dart
+│   │   │   ├── footer.dart
+│   │   │   ├── custom_button.dart
+│   │   │   └── glass_card.dart
+│   │   ├── sections/
+│   │   │   ├── hero_section.dart
+│   │   │   ├── about_section.dart
+│   │   │   ├── skills_section.dart
+│   │   │   ├── projects_section.dart
+│   │   │   ├── certifications_section.dart
+│   │   │   └── contact_section.dart
+│   │   └── cards/
+│   │       ├── project_card.dart
+│   │       ├── skill_card.dart
+│   │       ├── cert_card.dart
+│   │       └── stat_card.dart
+│   ├── services/
+│   │   ├── api_service.dart
+│   │   ├── github_service.dart
+│   │   └── email_service.dart
+│   ├── theme/
+│   │   ├── app_theme.dart
+│   │   ├── colors.dart
+│   │   └── text_styles.dart
+│   └── utils/
+│       ├── extensions.dart
+│       └── helpers.dart
+├── web/
+│   ├── index.html
+│   ├── styles.css
+│   └── manifest.json
+├── pubspec.yaml
+└── README.md
