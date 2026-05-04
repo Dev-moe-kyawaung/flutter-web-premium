@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Moe Kyaw Aung - Android Developer at Microsoft. Full-Stack Engineer, Kotlin Specialist, AWS Architect">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="MoeKyaw">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <title>Moe Kyaw Aung - Android Developer @ Microsoft</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" type="text/css" href="splash/style.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta name="theme-color" content="#6366F1">
+  <meta name="msapplication-TileColor" content="#6366F1">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to application. For more information, see: https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    var serviceWorkerVersion = null;
+    var scriptLoaded = false;
+    function loadServiceWorker() {
+      if ("serviceWorker" in navigator && serviceWorkerVersion != null) {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=' + serviceWorkerVersion);
+      }
+    }
+    window.addEventListener('load', function() {
+      loadServiceWorker();
+    });
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
